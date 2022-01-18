@@ -1,0 +1,10 @@
+﻿  math_ops.c
+C:\Users\user\source\repos\ck-pull-requests-KamilMutalov\Second Lab\Second Lab\math_ops.c(15,19): warning C4013: overflow_error: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\user\source\repos\ck-pull-requests-KamilMutalov\Second Lab\Second Lab\math_ops.c(17,40): warning C4047: функция: "const uint64_t *const " отличается по уровням косвенного обращения от "uint64_t (*)[32]"
+C:\Users\user\source\repos\ck-pull-requests-KamilMutalov\Second Lab\Second Lab\math_ops.c(17,31): warning C4024: from_array_uint64_t: различные типы для формального и фактического параметров 1
+C:\Users\user\source\repos\ck-pull-requests-KamilMutalov\Second Lab\Second Lab\math_ops.c(23,38): warning C4047: функция: "const uint64_t *const " отличается по уровням косвенного обращения от "uint64_t (*)[32]"
+C:\Users\user\source\repos\ck-pull-requests-KamilMutalov\Second Lab\Second Lab\math_ops.c(23,29): warning C4024: from_array_uint64_t: различные типы для формального и фактического параметров 1
+C:\Users\user\source\repos\ck-pull-requests-KamilMutalov\Second Lab\Second Lab\math_ops.c(181,24): warning C4013: invalid_number_error: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\user\source\repos\ck-pull-requests-KamilMutalov\Second Lab\Second Lab\math_ops.c(184,27): warning C4244: +=: преобразование "double" в "uint32_t", возможна потеря данных
+C:\Users\user\source\repos\ck-pull-requests-KamilMutalov\Second Lab\Second Lab\math_ops.c(162,39): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  Second Lab.vcxproj -> C:\Users\user\source\repos\ck-pull-requests-KamilMutalov\Second Lab\x64\Debug\Second Lab.exe
