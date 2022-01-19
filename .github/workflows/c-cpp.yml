@@ -1,0 +1,28 @@
+name: C/C++ CI
+
+on:
+  push:
+    branches:
+    - GoogleTest
+
+jobs:
+
+  Prepare:
+    runs-on: windows-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Go up dir
+      run: cd .. && cd ..
+    
+  Build-n-test:
+    runs-on: windows-latest
+    needs: prepare
+    steps:
+    - uses: actions/checkout@v2
+    - name: Create project
+      run: cmake -S . -B build
+    - name: Build
+      run: cmake --build build
+    - name: Test
+      run: cd build && ctest
+ 
